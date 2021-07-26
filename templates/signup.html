@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Home-page</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="/static/favicon.png" rel="icon">
+    <link href="/static/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="/static/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/ionicons.min.css" rel="stylesheet">
+    <link href="/static/animate.min.css" rel="stylesheet">
+    <link href="/static/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/venobox.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="/static/style_home.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header">
+        <div class="container">
+
+            <div id="logo" class="pull-left">
+                <h1><a href="index" class="scrollto">Reuse.iT</a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt=""></a> -->
+            </div>
+
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="menu-active"><a href="index">Home</a></li>
+                    <li><a href="./index.html#about">About Us</a></li>
+                </ul>
+            </nav><!-- #nav-menu-container -->
+        </div>
+    </header><!-- End Header -->
+
+    <main id="main">
+
+        <section id="more-features" class="login_bg">
+            <div id="Register" class="section-title" >
+                <br>
+                <h2 id="signup">Sign Up</h2>
+
+                <p style="text-align:center;">
+                <form action="{{url_for('signup')}}" method="POST">
+
+                    <p style="text-align:center;">
+                    <div class="field-wrap" id="namewrap1">
+                        <label>
+                            Username:<span class="req" id="name1">  </span>
+                        </label>
+                        <input type="text" name='username' required autocomplete="off" id="nameip1">
+                    </div>
+                    </p>
+                    <div class="field-wrap" id="passwrap1">
+                        <label>
+                            Password:<span class="req" id="pass1"> </span>
+                        </label>
+                        <input type="password" name="password" required autocomplete="off" id="passip1" />
+                    </div>
+
+                    <div class="field-wrap" id="addrwarp1">
+                        <label>
+                            Address<span class="req" id="addr1">: </span>
+                        </label>
+                        <input type="text" name='address' required autocomplete="off" id="addrip1" />
+                    </div>
+
+                    <div class="field-wrap" id="localwrap1">
+                        <label>
+                            Locality<span class="req"id="local1">: </span>
+                        </label>
+                        <input type="text" name="locality" required autocomplete="off" id="loclip1" />
+                    </div>
+
+                    <div class="field-wrap" id="Contactwrap" >
+                        <label>
+                            Contact Number<span class="req">: </span>
+                        </label>
+                        <input type="number" name="contact" required autocomplete="off"  />
+                    </div>
+
+                    <div class="field-wrap" id="TypeOfUser">
+                        <label id="usr_type"> User-type: </label> <input type="radio" name="usertype" class="radio"
+                            id="Customer" value='Personal'>Personal <input type="radio" name="usertype" class="radio" id="Dealer" value='Dealer'>Dealer
+
+                    </div>
+
+                    <!-- <p class="forgot"><a href="#">Forgot Password?</a></p> -->
+
+                    <button class="button button1"><b>Sign Up</b></button>
+
+                </form>
+                </p>
+
+            </div>
+
+
+        </section>
+
+
+    </main><!-- End #main -->
+
+    <!-- Vendor JS Files -->
+    <script src="/static/jquery.min.js"></script>
+    <script src="/static/bootstrap.bundle.min.js"></script>
+    <script src="/static/jquery.easing.min.js"></script>
+    <script src="/static/validate.js"></script>
+    <script src="/static/wow.min.js"></script>
+    <script src="/static/venobox.min.js"></script>
+    <script src="/static/superfish.min.js"></script>
+    <script src="/static/hoverIntent.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="/static/main.js"></script>
+
+</body>
+
+</html>

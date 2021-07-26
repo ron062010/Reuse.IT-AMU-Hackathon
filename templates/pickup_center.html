@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Drop-off</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="/assets/vendor/ionicons/css/ionicons.css" rel="stylesheet">
+  <link href="assets/vendor/weather-icons/css/weather-icons.min.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/static/style_home.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header">
+        <div class="container">
+
+            <div id="logo" class="pull-left">
+                <h1><a href="./home.html#features" class="scrollto">Reuse.iT</a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt=""></a> -->
+            </div>
+
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="menu-active"><a href="./home.html#features">Home</a></li>
+                    <li><a href="./home.html#about">About Us</a></li>
+                    <li><a href="./home.html#features">Features</a></li>
+
+                </ul>
+            </nav><!-- #nav-menu-container -->
+        </div>
+    </header><!-- End Header -->
+
+    <main id="main">
+
+        <!-- ======= Breadcrumbs Section ======= -->
+        <section class="breadcrumbs">
+            <div class="container">
+                <br>
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2>Near by Pick-Up Centers</h2>
+                    <br>
+                    <ol>
+                        <li><a href="dealer_home">Home</a></li>
+                        <li>Near by Pick-Up Centers</li>
+                    </ol>
+                </div>
+
+            </div>
+        </section><!-- End Breadcrumbs Section -->
+
+        {% for i in Pickup_list%}  
+    <section id="more-features4" class="Center2" class="section-bg" style="text-align: center; padding: 0px">
+       
+      <div class="container" id="box1" style="padding: 0px; max-height: 100vh; ">
+        <div class="row">
+          <div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+            <div class="box wow fadeInLeft" style="padding: 0%; max-height: 100vh; margin: 0px 15px 15px 15px; width: 315px">
+              <div class="section-title2" id="dealer1"
+                style="text-align: left; color: black; float: left; font-size: 13px;  min-width: 30vh; ">
+                
+                <strong>{{i[0]}}</strong>
+                <br><br>
+                {{i[1]}}
+                <br>
+               {{i[2]}}
+               <br><br>
+               {{i[4]}}
+               <br>
+               
+                Requested Dealer : {{i[6]}}
+                <br><br>
+              </div>
+              <div class="icon" id="call" style="text-align: left; "><i class="fa fa-phone-alt"
+                  style="margin: 70px 10px 0px 30px;  font-size: 40px; text-align:center;" aria-hidden="true"></i>
+              </div>
+
+            </div>
+          </div>
+        </div>
+     
+    </section>
+    {% endfor %}
+
+    </main><!-- End #main -->
+
+
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/wow/wow.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/superfish/superfish.min.js"></script>
+    <script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
