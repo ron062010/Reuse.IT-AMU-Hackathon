@@ -5,7 +5,7 @@ link for dataset : https://drive.google.com/drive/folders/1RkPlpGGDQx5vjW1BW_qNL
 This app aims to reduce the amount of waste produced at first place and even if waste is generated, ways to reuse it/dispose it properly will be given.
 The app has two login options of 1. Personal User and 2. Dealer
 
-User side interface
+User Side Interface
 
 1. Object Recognition: The scrap item will be recognized through camera and ways to reuse/recycle it will be displayed along with the item’s Carbon Footprint. For this pre trained VGG16 model is used.
 2. Donate to NGO:  This feature enables the user to donate the usable materials. List of all available NGOs will be displayed along with their contact details.
@@ -13,7 +13,7 @@ User side interface
 4. Nearby Drop-off Centers: The users will be provided with the list of the nearby drop-off centers which they can consider to recycle the scrap.
 
 
-Scrap dealer side interface
+Scrap Dealer Side Interface
 
 1. Nearby pick-up destinations: The dealer will be able to see the live requests made to collect the scrap items, by the user.
 2. Shortest Route: In case of multiple pickup requests, this feature helps the dealer to decide the shortest route for his journey.
