@@ -1,4 +1,5 @@
-# Reuse.iT. Reuse iT or Lose iT.
+# Reuse.iT
+# Reuse iT or Lose iT.
 
 This app aims to reduce the amount of waste produced at first place and even if waste is generated, ways to reuse it/dispose it properly will be given.
 The app has two login options of 1. Personal User and 2. Dealer
