@@ -1,7 +1,3 @@
-link for model.h5 file: https://drive.google.com/file/d/1dkjCAl_uqOsCmKAN82Qmj0KV8t7ep7lm/view?usp=sharing
-
-link for dataset : https://drive.google.com/drive/folders/1RkPlpGGDQx5vjW1BW_qNLTRczvm6czvg?usp=sharing
-
 This app aims to reduce the amount of waste produced at first place and even if waste is generated, ways to reuse it/dispose it properly will be given.
 The app has two login options of 1. Personal User and 2. Dealer
 
@@ -27,3 +23,8 @@ Tech Stack:
 4. Object Recognition: Deep Learning (vgg16)
 5. Shortest Path: Google Maps API
 6. Automation: Selenium Bot
+
+
+link for model.h5 file: https://drive.google.com/file/d/1dkjCAl_uqOsCmKAN82Qmj0KV8t7ep7lm/view?usp=sharing
+
+link for dataset : https://drive.google.com/drive/folders/1RkPlpGGDQx5vjW1BW_qNLTRczvm6czvg?usp=sharing
